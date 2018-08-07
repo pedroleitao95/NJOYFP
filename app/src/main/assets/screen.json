@@ -1,0 +1,216 @@
+{
+  "screens" : [
+    {
+      "id" : "0",
+      "name": "Início",
+      "options": [
+        {
+          "name": "Animação",
+          "action": "screen: 1",
+          "resourceName": "filme2"
+        },
+        {
+          "name" : "Casa",
+          "action" : "screen: 2 ",
+          "resourceName" : "casa"
+        },
+        {
+          "name" : "Jogos",
+          "action" : "screen: 3 ",
+          "resourceName" : "jogos"
+        },
+        {
+          "name" : "Escola",
+          "action" : "screen: 4 ",
+          "resourceName" : "escola"
+        },
+        {
+          "name" : "Mensagens",
+          "action" : "screen: 8",
+          "resourceName" : "escrever"
+        },
+        {
+          "name" : "NJOY Store",
+          "action" : "apps ",
+          "resourceName" : "escrever"
+        }
+      ]
+    },
+    {
+      "id" : "1",
+      "name" : "Animação",
+      "options": [
+        {
+          "name" : "Documentários",
+          "action" : "screen: 7",
+          "resourceName" : "filme2"
+        },
+        {
+          "name" : "Canções",
+          "action" : "screen: 6 ",
+          "resourceName" : "musica"
+        },
+        {
+          "name" : "Filmes",
+          "action" : "",
+          "resourceName" : "filme"
+        }
+      ]
+    },
+    {
+      "id" :  "2",
+      "name" : "Casa",
+      "options" : [
+        {
+          "name" : "Televisão",
+          "action" : "domotic: toogle tv",
+          "resourceName" :  "tv"
+        },
+        {
+          "name" : "Luz",
+          "action" : "domotic: toogle light",
+          "resourceName" : "luz"
+        },
+        {
+          "name" : "Rádio",
+          "action" : "domotic: toogle hvac",
+          "resourceName" : "radio"
+        }
+      ]
+    },
+    {
+      "id" : "3",
+      "name" : "Jogos",
+      "options" : [
+        {
+          "name" : "Bocia",
+          "action" : "",
+          "resourceName" : "boccia"
+        },
+        {
+          "name" : "Outros",
+          "action" : "",
+          "resourceName" : "jogo_outro"
+        }
+      ]
+    },
+    {
+      "id" : "4",
+      "name" : "Escola",
+      "options" : [
+        {
+          "name" : "Leitura",
+          "action" : "",
+          "resourceName" : "ler"
+        },
+        {
+          "name" : "Escrita",
+          "action" : "",
+          "resourceName" : "escrever"
+        },
+        {
+          "name" : "Matemática",
+          "action" : "",
+          "resourceName" : "matematica"
+        },
+        {
+          "name" : "Animais",
+          "action" : "screen: 5",
+          "resourceName" : "animais"
+        }
+      ]
+    },
+    {
+      "id" : "5",
+      "name" : "Animais",
+      "options" : [
+        {
+          "name" : "Gnu",
+          "action" : "talk: gnu",
+          "resourceName" : "gnu"
+        },
+        {
+          "name" : "Pomba",
+          "action" : "talk: pomba",
+          "resourceName" : "pomba"
+        },
+        {
+          "name" : "Pato",
+          "action"  : "talk: pato",
+          "resourceName" : "pato"
+        },
+        {
+          "name" : "Coiote",
+          "action" : "talk: coiote",
+          "resourceName" : "coiote"
+        },
+        {
+          "name" : "Pintassilgo",
+          "action" : "talk: pintassilgo",
+          "resourceName" : "pintassilgo"
+        }
+      ]
+    },
+    {
+      "id" : "6",
+      "name" : "Canções",
+      "options" : [
+        {
+          "name" : "Água, a nossa amiga",
+          "action" : "youtube: XiQudQyl78M",
+          "resourceName" : "agua"
+        },
+        {
+          "name": "Canção da Primavera",
+          "action" : "youtube: RVrbwDmuwJk",
+          "resourceName" : "primavera"
+        }
+      ]
+    },
+    {
+      "id" : "7",
+      "name" : "Documentários",
+      "options" : [
+        {
+          "name": "Que mundo maravilhoso",
+          "action" : "youtube: B8WHKRzkCOY",
+          "resourceName" : "bbc"
+        },
+        {
+          "name" : "Planeta Terra",
+          "action" : "youtube: Wa546EesVPE",
+          "resourceName" : "home"
+        },
+        {
+          "name" : "Vida Selvagem",
+          "action" : "youtube: 5bHqG4ikRB8",
+          "resourceName" : "serengeti"
+        }
+      ]
+    },
+    {
+      "id" : "8",
+      "name" : "Mensagens Escritas",
+      "options" : [
+        {
+          "name" : "Mensagens Novas",
+          "action" : "sms: read",
+          "resourceName" : "read_sms"
+        },
+        {
+          "name" : "Olá mãe, quando chegas?",
+          "action" : "sms: 960187060: Olá mãe, quando chegas?",
+          "resourceName" : "mae"
+        },
+        {
+          "name" : "SOS",
+          "action": "sms: 960187060: Preciso de ajuda",
+          "resourceName" : "pai"
+        }
+      ]
+    }
+  ]
+
+
+
+}
